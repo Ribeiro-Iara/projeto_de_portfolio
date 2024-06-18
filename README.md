@@ -12,6 +12,10 @@ Olá, Bem vindo ao meu projeto de portfólio desenvolvido nos cursos da Alura.
 
 * Flex-box
 
+## Projeto publicado no versel:
+
+https://portfolio-kappa-mauve-72.vercel.app/index.html
+
 ## Feito por:
 
 ### Iara Ribeiro Pereira
