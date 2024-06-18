@@ -33,7 +33,7 @@ body{
 
 .cabecalho__menu__link{
     font-family: var(--font-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem; /* rem -> unidade de medida relativa, ajuda a adaptar o tamanho de acordo com as preferencias do usuario ( 1rem = 16px)*/
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -44,10 +44,11 @@ body{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -55,7 +56,7 @@ body{
 
 h1{
     font-family: var(--fonte-primaria);
-    font-size: 36pt;
+    font-size: 2.25rem;
 }
 
 .text-blue{
@@ -63,7 +64,7 @@ h1{
 }
 
 p{
-    font-size: 24pt;
+    font-size: 1.5rem;
     font-family: var(--font-secundaria);
     font-weight: 400;
 }
@@ -79,7 +80,7 @@ p{
 h2{
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__conteudo__links__btn{
@@ -90,13 +91,13 @@ h2{
 
     font-family: var(--font-secundaria);
     color: var(--cor-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     border-radius: 8px;
     text-align: center;
-    padding: 21.5px 0; /*primeiro valor vertical e o segundo horizontal*/
+    padding: 1.4rem 0; /*21.5px 0; primeiro valor vertical e o segundo horizontal */
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 50%;
     text-decoration: none;
 }
 
@@ -104,13 +105,35 @@ h2{
     background-color: var(--cor-hover);
 }
 
+.apresentacao__imagem{
+    width: 50%;
+}
+
 .rodape{
     background-color: var(--cor-terciaria);
     color: var(--cor-primaria);
-    padding: 24px;
+    padding: 1.5rem; /* 24px; */
     text-align: center;
     font-family: var(--font-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
+@media (max-width: 1200px) {
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5% 10%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+}
