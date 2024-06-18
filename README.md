@@ -12,7 +12,11 @@ Olá, Bem vindo ao meu projeto de portfólio desenvolvido nos cursos da Alura.
 
 * Flex-box
 
-## Projeto publicado no versel:
+## Design do projeto no Figma:
+
+https://www.figma.com/design/LQ6f6m5RH82SPwjd25tlUE/Portfolio---Curso-3-(Copy)?node-id=0-1&t=uNyLiZTUblSCnKgN-1
+
+## Projeto publicado no Versel:
 
 https://portfolio-kappa-mauve-72.vercel.app/index.html
 
