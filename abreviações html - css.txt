@@ -1,0 +1,9 @@
+html: Gera a estrutura básica de um documento HTML.
+
+ul>li*5: Cria uma lista não ordenada com cinco itens de lista.
+
+div>h1+p: Cria uma div contendo um cabeçalho (h1) seguido de um parágrafo (p).
+
+input[type=text]+input[type=password]: Cria dois campos de entrada, um para texto e outro para senha.
+
+ul#nav>li.item$*4>a{Item $}: cria uma lista tipo ul com id (#) com 4 itens (li * 4) com classes especificas (.item$ [onde o $ vai representar cada numero referente ao item da lista]) e cada item vai ter um <a> com um texto já especifico ({Item $}) [sem o 'a' o escrito vai direto para os itens da lista]
